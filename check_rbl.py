@@ -132,10 +132,8 @@ class ThreadRBL(threading.Thread):
             # Grab hosts from queue
             hostname, root_name = self.queue.get()
             check_host = "%s.%s" % (hostname, root_name)
-            print(check_host)
             try:
                 check_addr = socket.gethostbyname(check_host)
-                print(check_addr)
             except socket.error:
                 check_addr = None
             if check_addr is not None and "127.0.0." in check_addr:
