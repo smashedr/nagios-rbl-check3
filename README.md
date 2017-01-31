@@ -1,6 +1,8 @@
 # Nagios RBL / DNSBL Check
 
-[![Build Status](https://travis-ci.org/smashedr/nagios-rbl-check.svg?branch=master)](https://travis-ci.org/smashedr/nagios-rbl-check)
+[![Build Status](https://travis-ci.org/smashedr/nagios-rbl-check3.svg?branch=master)](https://travis-ci.org/smashedr/nagios-rbl-check3)
+[![Coverage Status](https://coveralls.io/repos/github/smashedr/nagios-rbl-check3/badge.svg?branch=master)](https://coveralls.io/github/smashedr/nagios-rbl-check3?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bc9734b678fb46899836967d301a4642)](https://www.codacy.com/app/smashedr/nagios-rbl-check3?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=smashedr/nagios-rbl-check3&amp;utm_campaign=Badge_Grade)
 
 A Python-based Nagios/Icinga plugin to check whether a host is listed on any known DNS-based spam blacklists.
 
